@@ -30,11 +30,21 @@ Build a logistic regression model to classify breast cancer tumors as malignant 
 
 ✅ Dataset loaded!
 
-📊 Classification Report: precision recall f1-score support 0 0.97 0.99 0.98 71 1 0.98 0.95 0.96 43
+📊 Classification Report:
 
-accuracy 0.97 114 ROC-AUC Score: 1.00
+              precision    recall  f1-score   support
 
-📉 Confusion Matrix: [[70 1] [ 2 41]]
+           0       0.97      0.99      0.98        71
+           1       0.98      0.95      0.96        43
+
+    accuracy                           0.97       114
+   macro avg       0.97      0.97      0.97       114
+weighted avg       0.97      0.97      0.97       114
+
+📉 Confusion Matrix:
+[[70  1]
+ [ 2 41]]
+🎯 ROC-AUC Score: 1.00
 
 ## ▶️ How to Run
 
